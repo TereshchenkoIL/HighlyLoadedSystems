@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "CoreLib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/CoreLib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CoreLib.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "CoreLib/1.0.0": {
-      "type": "project",
-      "path": "../CoreLib/CoreLib.csproj",
-      "msbuildProject": "../CoreLib/CoreLib.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "CoreLib >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\illia\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\Initial\\Initial.csproj",
-      "projectName": "Initial",
-      "projectPath": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\Initial\\Initial.csproj",
+      "projectUniqueName": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\CoreLib\\CoreLib.csproj",
+      "projectName": "CoreLib",
+      "projectPath": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\CoreLib\\CoreLib.csproj",
       "packagesPath": "C:\\Users\\illia\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\Initial\\obj\\",
+      "outputPath": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\CoreLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\illia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\CoreLib\\CoreLib.csproj": {
-              "projectPath": "D:\\Projects\\Univer\\MMS\\HighlyLoadedSystems\\CoreLib\\CoreLib.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

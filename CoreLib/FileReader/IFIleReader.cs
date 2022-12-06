@@ -1,4 +1,4 @@
-﻿namespace Initial.FileReader;
+﻿namespace CoreLib.FileReader;
 
 public interface IFIleReader
 {

@@ -1,4 +1,4 @@
-﻿namespace Initial;
+﻿namespace CoreLib.FileReader;
 
 public class FileReaderResult
 {
