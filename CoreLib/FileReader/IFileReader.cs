@@ -1,6 +1,6 @@
 ﻿namespace CoreLib.FileReader;
 
-public interface IFIleReader
+public interface IFileReader
 {
     FileReaderResult GetFileStatistics(string filePath);
 }

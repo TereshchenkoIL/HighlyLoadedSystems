@@ -4,11 +4,6 @@ namespace CoreLib.Implementation;
 
 public class CoreLibAbstractFactory : ICoreLibAbstractFactory
 {
-    public IErrorPredictor CreateErrorPredictor()
-    {
-        throw new NotImplementedException();
-    }
-
     public IInitialValueCalculator CreateInitialValueCalculator()
     {
         return new InitialValueCalculator();
